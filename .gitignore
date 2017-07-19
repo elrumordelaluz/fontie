@@ -1,0 +1,14 @@
+node_modules
+.nyc_output
+coverage
+dist
+*.patch
+*.err
+*.log
+*.orig
+*.vi
+*.zip
+.DS_Store
+*~
+._*
+.env

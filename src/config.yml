@@ -1,0 +1,19 @@
+font_name: orion
+css_selector: .o-{{glyph}}
+preprocessor_path: ""
+autowidth: true
+no_hash: true
+force: true
+debug: false
+quiet: false
+
+input: input
+
+output:
+  fonts: ./out                              # required
+  styles.css: ./out
+  preview.html: ./out
+
+templates:
+  - preview.html
+  - styles.css
