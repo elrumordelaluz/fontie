@@ -17,6 +17,7 @@ const fontie = (
     output = 'output',
   } = {}
 ) => {
+  console.log('aaa');
   return new Promise((resolve, reject) => {
     const path = sync('fontcustom')
 

@@ -4,12 +4,9 @@ import fontie from './index'
 describe('fontie', () => {
   it('works', () => {
     fontie({
-      config: __dirname + '/config.yml',
-      input: __dirname + '/input',
+      config: __dirname + '/test-config/config.yml',
+      input: __dirname + '/test-input',
+      output: __dirname + '/test-output',
     })
-      .then(res => {
-        expect(res).to.eql('hola')
-      })
-      .catch(err => console.log(err))
   })
 })

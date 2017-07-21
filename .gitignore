@@ -12,3 +12,5 @@ dist
 *~
 ._*
 .env
+test-*
+.fontcustom-manifest.json
