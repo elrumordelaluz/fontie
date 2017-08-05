@@ -37,11 +37,11 @@ const fontie = (
         if (err) {
           reject('An error occurred converting svgs to font icon')
         }
-        resolve('hola')
+        resolve()
       })
     } else {
       console.log('jkhkj')
-      reject(new Error('Should be installed fontcustom'))
+      reject('Should be installed fontcustom')
     }
   })
 }
